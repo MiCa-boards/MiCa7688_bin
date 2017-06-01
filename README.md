@@ -1,9 +1,10 @@
-#Binary Files
+# Binary Files
+
 Bootloader: wrt7688.ldr 
 Lede: wrt7688.img
 
 
-#Updating the bootloader
+# Updating the bootloader
 
 You can update the bootloader with a USB drive. 
 You may need to update the bootloader in rare cases when there is a new version of the bootloader or when you build your own bootloader.
@@ -23,7 +24,7 @@ The board will read the bootloader (the WiFi LED blinks fast) and perform the bo
 It takes about 2 seconds to finish the bootloader update process.
 
 
-#Update the firmware with a USB drive
+# Update the firmware with a USB drive
 
 This github include the latest firmware for your MiCa7688 ,  which may not have been installed at the factory. It is strongly recommended to update the firmware of your new board before proceeding with development. This section describes how to update the firmware with a USB drive and an OTG cable. 
 
@@ -39,4 +40,5 @@ Keep holding the WiFi button for about 5 seconds. Do not release until the yello
 DO NOT press the WiFi button longer than 20s or it will upgrade the bootloader.
 The WiFi LED blinks fast for about 3 minutes.
 The device will automatically reboot after firmware update is complete.
+
 
